@@ -1,5 +1,5 @@
 class Solution(object):
-    def twoSum(nums, target):
+    def twoSum(self, nums, target):
         index = {}
         for i, num in enumerate(nums):
             diff = target - num
